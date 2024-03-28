@@ -5,7 +5,7 @@ import PostCardBig from "../../components/PostCard/Big/PostCardBig";
 import PostCardSmall from "../../components/PostCard/Small/PostCardSmall";
 import getRandomNumber from "../../functions/getRandomNumber";
 import getSrcImage from "../../functions/getPhotoById";
-import { title } from "process";
+
 interface post {
     userId: number;
     id: number;

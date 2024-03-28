@@ -29,8 +29,9 @@ export default function Rating({
                 <img
                     src={
                         isLiked
-                            ? "/assets/icons/active/like.svg"
-                            : "/assets/icons/like.svg"
+                            ? process.env.PUBLIC_URL +
+                              "/assets/icons/active/like.svg"
+                            : process.env.PUBLIC_URL + "/assets/icons/like.svg"
                     }
                     className={styles.rating_icon}
                 />
@@ -40,8 +41,10 @@ export default function Rating({
                 <img
                     src={
                         isDisliked
-                            ? "/assets/icons/active/dislike.svg"
-                            : "/assets/icons/dislike.svg"
+                            ? process.env.PUBLIC_URL +
+                              "/assets/icons/active/dislike.svg"
+                            : process.env.PUBLIC_URL +
+                              "/assets/icons/dislike.svg"
                     }
                     className={styles.rating_icon}
                 />

@@ -22,7 +22,7 @@ export default function SearchField({
         <div className={styles.field}>
             <img
                 className={styles.icon}
-                src={"/assets/icons/search_icon.svg"}
+                src={process.env.PUBLIC_URL + "/assets/icons/search_icon.svg"}
                 onClick={(e) => filterPostsByTitle(value)}
             />
             <input

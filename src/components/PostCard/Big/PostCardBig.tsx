@@ -18,7 +18,10 @@ export default function PostCardBig({
 }) {
     return (
         <section className={styles.card}>
-            <img src={image} className={styles.card_image} />
+            <img
+                src={process.env.PUBLIC_URL + image}
+                className={styles.card_image}
+            />
             <section className={styles.card_info}>
                 <div className={styles.title_rating_container}>
                     <h2 className={styles.title}>{title}</h2>

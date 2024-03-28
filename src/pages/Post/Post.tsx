@@ -36,7 +36,10 @@ export default function Post() {
                         <div className={styles.back_button_container}>
                             <img
                                 className={styles.arrow_icon}
-                                src="/assets/icons/arrow.svg"
+                                src={
+                                    process.env.PUBLIC_URL +
+                                    "/assets/icons/arrow.svg"
+                                }
                             />
                             <Link to="/" className={styles.button_link}>
                                 <button className={styles.button_back}>
@@ -47,7 +50,10 @@ export default function Post() {
                         <Rating rating={rating} />
                     </div>
                     <h1 className={styles.title}>{title}</h1>
-                    <img className={styles.post_image} src={image} />
+                    <img
+                        className={styles.post_image}
+                        src={process.env.PUBLIC_URL + image}
+                    />
                     <div className={styles.description_container}>
                         <p className={styles.description}>{description}</p>
                     </div>

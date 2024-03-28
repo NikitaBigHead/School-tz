@@ -17,7 +17,10 @@ export default function PostCardSmall({
 }) {
     return (
         <section className={styles.card}>
-            <img src={image} className={styles.card_image} />
+            <img
+                src={process.env.PUBLIC_URL + image}
+                className={styles.card_image}
+            />
             <section className={styles.card_info}>
                 <h2 className={styles.title}>{title}</h2>
                 <div className={styles.rating_button_container}>
