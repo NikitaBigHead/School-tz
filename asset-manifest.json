@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/School-tz/static/css/main.76d629d7.css",
-    "main.js": "/School-tz/static/js/main.2043a823.js",
-    "index.html": "/School-tz/index.html",
-    "main.76d629d7.css.map": "/School-tz/static/css/main.76d629d7.css.map",
-    "main.2043a823.js.map": "/School-tz/static/js/main.2043a823.js.map"
+    "main.css": "/school-tz/static/css/main.76d629d7.css",
+    "main.js": "/school-tz/static/js/main.2043a823.js",
+    "index.html": "/school-tz/index.html",
+    "main.76d629d7.css.map": "/school-tz/static/css/main.76d629d7.css.map",
+    "main.2043a823.js.map": "/school-tz/static/js/main.2043a823.js.map"
   },
   "entrypoints": [
     "static/css/main.76d629d7.css",
